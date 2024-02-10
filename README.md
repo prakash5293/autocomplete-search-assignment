@@ -1,6 +1,6 @@
 
 
-# Problem statement:
+### Problem statement:
 Develop an autocomplete search feature that predicts and suggests possible search queries based on user input, enhancing user experience and efficiency during search operations. The system should swiftly analyze and retrieve relevant search suggestions in real-time, optimizing user interactions and facilitating seamless navigation across the platform or application.
 
 
