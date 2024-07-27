@@ -1,25 +1,29 @@
+# Autocomplete Search App
 
+This project is an autocomplete search component built using **React** and **Vite** with **TypeScript**. Users can see suggestions based on their input and add book cards. Each book card includes a remove icon for easy removal. Additionally, there's a snackbar to handle book addition, removal, and existing book scenarios.
 
-# Problem statement:
-Develop an autocomplete search feature that predicts and suggests possible search queries based on user input, enhancing user experience and efficiency during search operations. The system should swiftly analyze and retrieve relevant search suggestions in real-time, optimizing user interactions and facilitating seamless navigation across the platform or application.
+## Features
 
+- Autocomplete search with suggestions
+- Add book cards
+- Remove book cards
+- Snackbar notifications
 
-# Requirements:
-- When we type a word  in the input box it should search the summaries and find the  list containing the searched word and sort on the basis of the number of  occurrences of that word.  
-- For example: If we searched for the word “history”. We get the id 24(2 occurrence      and 44(one occurance). In this case the search should show the title of id 24 as the first item of the list and title of id 44 as the second item of the list
+## Getting Started
 
-- Once the user clicks on a suggestion list item and submit, it should add a card with book title,summary, author and reset the form data
+1. Clone this repository.
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Run the development server:
+    ```bash
+    npm run dev
+    ```
+4. Open your browser and navigate to `http://localhost:5173`.
 
+## Running Unit Tests
 
-- There should be a maximum of four cards per row. On hover it should have zoom in transition and on hover out it should go back to original state
-
-
-# Guidelines:
-
-- The datasets required for above problem statement are found in the same folder as “data.json” file
-- You can choose any programming language or framework you are comfortable with, as long as you can justify your choice and meet the requirements
-- Design the solution with scalability in mind, considering potential future requirements such as increased data volume, concurrent users, or additional features
-- The code should be clean, well-structured, and documented code. Follow best practices, use meaningful variable names, and include comments where necessary to enhance code readability and maintainability
-- Include unit tests and/or integration tests to ensure the reliability and correctness of their solution
-- Feel free to ask questions if clarification is required on any aspect of the assignment
-- Bonus advantage is to ensure a polished and engaging user experience that enhances usability and visual appeal.
+To run unit tests, use the following command:
+```bash
+npm run test

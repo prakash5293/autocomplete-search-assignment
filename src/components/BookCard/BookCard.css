@@ -1,0 +1,71 @@
+.book-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 24%;
+    box-sizing: border-box;
+    background-color: #f7e32b;
+    margin: -8px 5px 32px;
+
+    &:hover {
+        transform: scale(0.95);
+    }
+
+    .book-header {
+        position: relative;
+
+        .book-title {
+            margin: 0;
+            font-size: 1.25rem;
+            width: 16vw;
+            color: rgb(16, 202, 9);
+            border-radius: 6px;
+            padding: 5px;
+        }
+
+        .remove-icon {
+            position: absolute;
+            top: 8px;
+            right: 0;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            color: #888;
+            transition: color 0.2s;
+            background: #0b0303;
+            border-radius: 50%;
+
+            &:hover {
+                color: #f00;
+            }
+        }
+    }
+
+    .book-summary {
+        font-size: 14px;
+        line-height: 1.1;
+        height: 46px;
+        color: #0f1216;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        margin-top: 0;
+    }
+
+    .book-author {
+        margin: 20px 0 0;
+        align-self: flex-end;
+        font-size: 0.9em;
+        color: #ff4545;
+        display: flex;
+        flex-direction: column;
+    }
+}
