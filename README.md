@@ -23,3 +23,7 @@ Develop an autocomplete search feature that predicts and suggests possible searc
 - Include unit tests and/or integration tests to ensure the reliability and correctness of their solution
 - Feel free to ask questions if clarification is required on any aspect of the assignment
 - Bonus advantage is to ensure a polished and engaging user experience that enhances usability and visual appeal.
+
+
+# Setup:
+- To start the App run npm start
